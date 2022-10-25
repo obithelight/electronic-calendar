@@ -1,0 +1,188 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(https://images.unsplash.com/photo-1615529328331-f8917597711f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+h2{
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	font-size: 1rem;
+}
+
+.time, .date{
+	display: flex;
+}
+
+div{
+	margin: 1rem;
+}
+
+div span{
+	font-size: 4rem;
+	display: flex;
+	height: 6rem;
+	width: 10rem;
+	justify-content: center;
+	align-items: center;
+	background: seagreen;
+	color: aliceblue;
+	opacity: .8;
+}
+
+.text{
+	font-size: 1rem;
+	text-transform: uppercase;
+	text-align: center;
+	height: 3rem;
+	background: aliceblue;
+	align-items: center;
+	font-weight: bold;
+	color: black;
+}
+
+#ampm{
+	align-items: center;
+	font-size: 4rem;
+	font-weight: normal;
+	height: 6rem;
+	background: seagreen;
+	color: white;
+}
+
+#season {
+	text-transform: uppercase;
+	font-size: 3rem;
+}
+
+/*******MEDIA QUERY**********/
+
+/* Desktop first */
+@media (max-width: 1620) {
+	h2{
+		align-items: center;
+	}
+
+	div span {
+		display: flex;
+	}	
+}
+
+
+@media (max-width: 700px) {
+h2	{
+	text-align: center;	
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	font-size: .9rem;
+}
+
+div span {
+	 	font-size: 2rem;
+	 	display: flex;
+	 	height: 4rem;
+	 	width: 8rem;
+	 	justify-content: center;
+	 	align-items: center;
+	 	background: seagreen;
+	 	color: aliceblue;
+	 	opacity: .8;
+}
+
+.text {
+	font-size: 1rem;
+	text-transform: uppercase;
+	text-align: center;
+	height: 2rem;
+	background: aliceblue;
+	align-items: center;
+	font-weight: bold;
+	color: black;
+}
+
+#ampm{
+	align-items: center;
+	font-size: 2rem;
+	font-weight: normal;
+	height: 4rem;
+	background: seagreen;
+	color: white;
+}
+
+#season {
+	text-transform: uppercase;
+	font-size: 2rem;
+}
+
+
+} 
+
+
+
+
+
+  
+
+
+@media (max-width: 480px) {
+
+body {
+	width: 100%;
+	height: 100vh;
+}
+h2	{
+	text-align: center;	
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	font-size: .5rem;
+}   
+
+div span {
+	 	font-size: 1rem;
+	 	display: flex;
+	 	flex-direction: column;
+	 	height: 2rem;
+	 	width: 4rem;
+	 	justify-content: center;
+	 	align-items: center;
+	 	background: seagreen;
+	 	color: aliceblue;
+	 	opacity: .8;
+}
+
+/*.text {
+	font-size: 1rem;
+	text-transform: uppercase;
+	text-align: center;
+	height: 2rem;
+	background: aliceblue;
+	align-items: center;
+	font-weight: bold;
+	color: black;
+}*/
+
+#ampm{
+	align-items: center;
+	font-size: 2rem;
+	font-weight: normal;
+	height: 4rem;
+	background: seagreen;
+	color: white;
+}
+
+#season {
+	text-transform: uppercase;
+	font-size: 1rem;
+}
+
+
+}
