@@ -4,6 +4,8 @@ body{
 	background: url(https://images.unsplash.com/photo-1615529328331-f8917597711f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
 	height: 100vh;
 	font-family: sans-serif;
 	display: flex;
@@ -64,10 +66,16 @@ div span{
 	font-size: 3rem;
 }
 
+
 /*******MEDIA QUERY**********/
 
 /* Desktop first */
 @media (max-width: 1620) {
+	
+/*body {
+	width: 100%;
+}*/
+
 	h2{
 		align-items: center;
 	}
@@ -78,7 +86,7 @@ div span{
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 h2	{
 	text-align: center;	
 	text-transform: uppercase;
@@ -121,32 +129,25 @@ div span {
 #season {
 	text-transform: uppercase;
 	font-size: 2rem;
-}
+	}
 
 
 } 
 
 
-@media (max-width: 480px) {
-
-body {
-	width: 100%;
-	height: 100vh;
-}
+@media (max-width: 680px) {
 
 h2	{
-	text-align: center;	
-	text-transform: uppercase;
 	letter-spacing: .2rem;
-	font-size: .5rem;
+	font-size: .7rem;
 }   
 
 div span {
 	 	font-size: 1rem;
 	 	display: flex;
 	 	flex-direction: column;
-	 	height: 2rem;
-	 	width: 4rem;
+	 	height: 4rem;
+	 	width: 6rem;
 	 	justify-content: center;
 	 	align-items: center;
 	 	background: seagreen;
@@ -154,30 +155,19 @@ div span {
 	 	opacity: .8;
 }
 
-/*.text {
-	font-size: 1rem;
-	text-transform: uppercase;
-	text-align: center;
-	height: 2rem;
-	background: aliceblue;
-	align-items: center;
-	font-weight: bold;
-	color: black;
-}*/
-
 #ampm{
 	align-items: center;
 	font-size: 1rem;
 	font-weight: normal;
-	height: 2rem;
+	height: 4rem;
 	background: seagreen;
 	color: white;
-}
+	}
 
 #season {
 	text-transform: uppercase;
 	font-size: 1rem;
-}
+	}
 
 
 }
