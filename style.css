@@ -1,5 +1,5 @@
 body{
-	margin: 0;
+	margin: 0; 
 	padding: 0;
 	background: url(https://images.unsplash.com/photo-1615529328331-f8917597711f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
 	background-repeat: no-repeat;
@@ -69,35 +69,16 @@ div span{
 
 /*******MEDIA QUERY**********/
 
-/* Desktop first */
-@media (max-width: 1620) {
-	
-/*body {
-	width: 100%;
-}*/
-
-	h2{
-		align-items: center;
-	}
-
-	div span {
-		display: flex;
-	}	
-}
-
-
-@media (max-width: 800px) {
+@media (max-width: 915px) {
 h2	{
 	text-align: center;	
-	text-transform: uppercase;
 	letter-spacing: .1rem;
-	font-size: .9rem;
+	font-size: 1.2rem;
 }
 
 div span {
 	 	font-size: 2rem;
-	 	display: flex;
-	 	height: 4rem;
+	 	height: 4.5rem;
 	 	width: 8rem;
 	 	justify-content: center;
 	 	align-items: center;
@@ -107,7 +88,52 @@ div span {
 }
 
 .text {
-	font-size: 1rem;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	text-align: center;
+	height: 2.5rem;
+	background: aliceblue;
+	align-items: center;
+	font-weight: bold;
+	color: black;
+}
+
+#ampm{
+	align-items: center;
+	font-size: 2rem;
+	font-weight: normal;
+	height: 4.5rem;
+	background: seagreen;
+	color: white;
+}
+
+#season {
+	text-transform: uppercase;
+	font-size: 2rem;
+	}
+
+} 
+
+@media (max-width: 686px) {
+
+h2	{
+	letter-spacing: .1rem;
+	font-size: .9rem;
+}   
+
+div span {
+	 	font-size: 2rem;
+	 	height: 4rem;
+	 	width: 6rem;
+	 	justify-content: center;
+	 	align-items: center;
+	 	background: seagreen;
+	 	color: aliceblue;
+	 	opacity: .8;
+}
+
+.text {
+	font-size: .9rem;
 	text-transform: uppercase;
 	text-align: center;
 	height: 2rem;
@@ -124,30 +150,29 @@ div span {
 	height: 4rem;
 	background: seagreen;
 	color: white;
-}
+	}
 
 #season {
 	text-transform: uppercase;
-	font-size: 2rem;
+	font-size: 1.8rem;
 	}
 
+}
 
-} 
 
-
-@media (max-width: 680px) {
+@media (max-width: 540px) {
 
 h2	{
-	letter-spacing: .2rem;
-	font-size: .7rem;
+	letter-spacing: .1rem;
+	font-size: .9rem;
 }   
 
 div span {
-	 	font-size: 1rem;
+	 	font-size: 1.3rem;
 	 	display: flex;
 	 	flex-direction: column;
-	 	height: 4rem;
-	 	width: 6rem;
+	 	height: 3.5rem;
+	 	width: 5rem;
 	 	justify-content: center;
 	 	align-items: center;
 	 	background: seagreen;
@@ -157,17 +182,109 @@ div span {
 
 #ampm{
 	align-items: center;
-	font-size: 1rem;
+	font-size: 1.3rem;
 	font-weight: normal;
-	height: 4rem;
+	height: 3.5rem;
 	background: seagreen;
 	color: white;
 	}
 
 #season {
 	text-transform: uppercase;
-	font-size: 1rem;
+	font-size: 1.1rem;
+	}
+}
+
+
+@media (max-width: 468px){
+
+h2	{
+	text-align: center;	
+	letter-spacing: .2rem;
+	font-size: .8rem;
+}
+
+hr
+.am-season {
+	margin-right: 1.5rem;
+}
+
+div span {
+	 	font-size: 1rem;
+	 	height: 2.5rem;
+	 	width: 3.5rem;
+	 	justify-content: center;
+	 	align-items: center;
+	 	background: seagreen;
+	 	color: aliceblue;
+	 	opacity: .8;
+}
+
+.text {
+	font-size: .7rem;
+	text-transform: uppercase;
+	text-align: center;
+	height: 1rem;
+	background: aliceblue;
+	align-items: center;
+	font-weight: bold;
+	color: black;
+}
+
+#ampm {
+	align-items: center;
+	font-size: .8rem;
+	font-weight: normal;
+	height: 2.5rem;
+	background: seagreen;
+	color: white;
 	}
 
+#season {
+	text-transform: uppercase;
+	font-size: .8rem;
+	}
+
+} 
+
+
+@media (max-width: 320px){
+
+h2	{
+	text-align: center;	
+	letter-spacing: .1rem;
+	font-size: .6rem;
+}
+
+div span {
+	 	font-size: .8rem;
+	 	height: 2rem;
+	 	width: 3rem;
+	 	justify-content: center;
+	 	align-items: center;
+	 	background: seagreen;
+	 	color: aliceblue;
+	 	opacity: .8;
+}
+
+.hr-date {
+	margin-left: 1.5rem;
+}
+
+.text {
+	font-size: .6rem;
+	text-transform: uppercase;
+	text-align: center;
+	height: 1rem;
+	background: aliceblue;
+	align-items: center;
+	font-weight: bold;
+	color: black;
+}
+
+#ampm, #season, .morning, .season {
+	display: none;
+	} 
 
 }
+
